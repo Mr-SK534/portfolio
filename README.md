@@ -33,16 +33,6 @@ A modern, fully responsive **Portfolio Website** designed to showcase your skill
 
 ---
 
-### 💡 Customization Ideas
-
-- Add blog or achievements section
-- Integrate a contact form with EmailJS or backend
-- Add dark/light theme switcher
-- Animate project cards and section reveals
-- Connect to GitHub API for dynamic project listing
-
----
-
 ### 🖥️ Live Demo
 
 [View My Portfolio Website!](your-live-portfolio-link)
