@@ -1,6 +1,3 @@
-// script.js
-
-// ----- Dark/Light Mode Toggle -----
 const toggleBtn = document.getElementById('toggleMode');
 function setTheme(mode) {
   if(mode === 'light') {
@@ -13,7 +10,7 @@ function setTheme(mode) {
     localStorage.setItem('theme','dark');
   }
 }
-// On page load, set mode from localStorage
+
 if (toggleBtn){
   const savedTheme = localStorage.getItem('theme') || 'dark';
   setTheme(savedTheme);
@@ -22,16 +19,14 @@ if (toggleBtn){
   };
 }
 
-// ----- Active Link Highlight (for non-hardcoded .active) -----
 const current = window.location.pathname.split('/').pop();
 document.querySelectorAll('nav ul li a').forEach(link => {
   if(link.getAttribute('href') === current) link.classList.add('active');
 });
 
-// ----- Interactive Projects from GitHub -----
 const projectsSection = document.getElementById('projects-list');
 if (projectsSection) {
-  // Replace `yourgithubusername` with your actual username!
+  
   fetch('https://api.github.com/users/Mr-SK534/repos')
     .then(response => response.json())
     .then(repos => {
@@ -57,7 +52,6 @@ if (projectsSection) {
     });
 }
 
-// script.js: Enhance form submission UX (non-functional placeholder)
 document.querySelector('.contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
   alert('Message sent! Thank you for reaching out.');

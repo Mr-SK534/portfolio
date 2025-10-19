@@ -674,7 +674,6 @@ nav ul li a:hover {
   background: linear-gradient(90deg, #56e2ff 70%, #6c80c4 100%);
 }
 
-/* Responsive tweaks */
 @media(max-width: 600px) {
   .contact-section {
     padding: 18px 3vw;
@@ -764,7 +763,6 @@ nav ul li a:hover {
   transform: translateX(6px);
 }
 
-/* Responsive */
 @media(max-width: 900px) {
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -840,7 +838,7 @@ nav ul li a:hover {
   border-bottom: 1.5px solid #72c5f7;
 }
 
-/* Responsive */
+
 @media (max-width: 700px) {
   .projects-section h2 {
     font-size: 1.22rem;
