@@ -22,16 +22,6 @@ A modern, fully responsive **Portfolio Website** designed to showcase your skill
 - **CSS3** – custom properties, grid, flexbox, transitions
 - **JavaScript (ES6)** – interactivity & dynamic effects
 
----
-
-### 🚀 How to Use
-
-1. Clone or download this repository.
-2. Edit the HTML files (`about.html`, `skills.html`, `projects.html`, `education.html`, `contact.html`, etc.) to update your own information.
-3. Update project cards/links in `projects.html` with your repo URLs and live demos.
-4. Open `index.html` in your browser to see your portfolio.
-
----
 
 ### 🖥️ Live Demo
 
